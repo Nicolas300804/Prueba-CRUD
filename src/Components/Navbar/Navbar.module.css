@@ -1,0 +1,15 @@
+.customNavbar{
+    background-color: black;
+}
+.buttoncreate {
+    margin-left: 700px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttoncreate:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

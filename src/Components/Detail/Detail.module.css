@@ -1,0 +1,22 @@
+.detailmain{
+    width: 300px; /* Ancho del contenedor */
+    height: 500px; /* Alto del contenedor */
+    margin: auto; /* Centrado horizontal */
+    margin-top: 79px; /* Centrado vertical */
+    background-color: #e2e2e2;
+    border-radius : 35px;
+    transform: translateY(0); /* Posición original */
+    transition: transform 0.5s ease-in-out; /* Transición suave para la animación */
+    overflow-y: hidden !important; 
+}
+
+.detailmain:hover{
+    transform: translateY(50px); /* Traslación del elemento al hacer hover */
+    transform: scale(1.2); /* Zoom en el texto al hacer hover */
+    
+}
+
+.imgdetail{
+    position: relative;
+    width: 200px;
+}
